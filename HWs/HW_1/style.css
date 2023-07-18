@@ -1,0 +1,30 @@
+body {
+    padding: 30px;
+    background: lightgray;
+}
+
+.button,
+.list-box {
+    margin-bottom: 30px;
+    padding: 40px;
+    background-color: orange;
+    border-radius: 30px;
+    font-size: 30px;
+    border: none;
+}
+
+.list-box {
+    position: relative;
+    width: 450px;
+}
+
+.button-add {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: lightgray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
